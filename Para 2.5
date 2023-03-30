@@ -1,0 +1,15 @@
+Algoritmo pagoemp
+	Definir trab, horas, pagoh, sueldo, sueldof Como Entero
+	Escribir "Cuantos son los trabajadores?"
+	Leer trab
+	Escribir "Cuanto es el pago por hora?"
+	Leer pagoh
+	Para x = 1 Hasta trab Con Paso 1 Hacer
+		Escribir "Cuantas horas trabajo?"
+		Leer horas
+		sueldo = horas * pagoh
+		sueldof = sueldof + sueldo
+		Escribir "El sueldo semanal del trabajador ", x, "es: $" sueldo
+	Fin Para
+	Escribir "El total pagado a todos los trabajadores fue de: $", sueldof
+FinAlgoritmo

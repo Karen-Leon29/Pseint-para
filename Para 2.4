@@ -1,0 +1,15 @@
+Algoritmo compraproducto
+	Definir x, men, pagof Como real
+	men = 0
+	pagof = 0
+	Para x = 1 Hasta 20 Con Paso 1 Hacer
+		Si x= 1 Entonces
+			men = 10000
+		SiNo
+			men = men * 2
+		Fin Si
+		Escribir "El pago del mes ", x, " es $", men
+		pagof = pagof + men
+	Fin Para
+	Escribir "El pago final es de: $", pagof
+FinAlgoritmo
